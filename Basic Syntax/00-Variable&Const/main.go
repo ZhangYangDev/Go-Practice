@@ -1,5 +1,4 @@
 package main
-
 import(
 	"fmt"
 )
@@ -14,8 +13,19 @@ var(
 	var3 = "variable"
 )
 
+// 声明全局常量
+const const0 int16 = 2134
+const(
+	const1 byte = '1'
+	const2 string = "constr"
+	const3 = 2132.3232
+)
 
 func main(){
+	// 全局变量
+
+	fmt.Println("全局变量=>",var0,var1,var2,var3)
+	fmt.Println("------------------------------")
 	// 第一种 
 	var num = 78203.5192
 	fmt.Printf("num type:%T\n", num)
@@ -51,9 +61,15 @@ func main(){
 	fmt.Printf("i type:%T\n",i)
 	fmt.Printf("j type:%T\n",j)
 	fmt.Println("------------------------------")
-
 	
+	fmt.Println("------------------------------")
+	// 全局常量
+	fmt.Println("全局常量=>",const0,const1,const2,const3)
+	// 声明常量
+	const con1 int16 = 6728
+	fmt.Println("const=> con1:",con1)
+	// 可以省略数据类型标识 编译器会根据值类型进行推导
+	const con2 = 7263.2344
+	fmt.Printf("con2 type:%T\n",con2)
+
 }
-
-
-
