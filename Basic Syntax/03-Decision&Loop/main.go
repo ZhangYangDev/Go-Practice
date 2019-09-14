@@ -72,13 +72,24 @@ func main(){
 	}
 
 	// for range 
-	var arr = [5]uint8{12,134,65,81,243} 	
-	for j , k:= range  arr {
-		 fmt.Printf("第%d位的值 = %d\n", j,k)
-	}
+	// var arr = [5]uint8{12,134,65,81,243} 	
+	// for j , k:= range  arr {
+	// 	 fmt.Printf("第%d位的值 = %d\n", j,k)
+	// }
 
 
 	// 双重for循环 
+
+
+	// 打印菱形
+	
+	printLozenge();
+	
+}
+
+
+
+func printLozenge(){
 
 	// 菱形上半部分  
 	for z := 1 ; z <= 10 ; z++ {
@@ -102,5 +113,5 @@ func main(){
 		}
 		fmt.Println(" ")
 	}
-	
+
 }
