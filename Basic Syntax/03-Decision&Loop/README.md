@@ -54,25 +54,37 @@
 #### 第一种写法
 
 ```go
+	switch num1 {
+	case 100: fmt.Println("100")
+	case 119: fmt.Println("119")
+	case 123: fmt.Println("123")
+	}
 
 ```
 #### 第二种写法
-
 ```go
-
+	switch {
+	case num1 == 100:
+		fmt.Println("100")
+	case num1 == 119:
+		fmt.Println("119")
+	// case num1 == 123,num2 == 192:
+	// 	fmt.Println("123,192")
+	case num1 == 123:
+		fmt.Println("123")
+	}
 ```
-
-第二种  可以写多个条件 
-
-### select 
 
 ## 循环语句
 
 
 ### for
+```go
+	for a := 0 ; a <= 5 ; a++ {
+		fmt.Println(a)
+	}
+```
 
-
-### 
 
 
 ### 使用for循环打印出一个菱形 
