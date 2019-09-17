@@ -1,2 +1,2 @@
 # Go-Practice
-Golang Practice  -  GoLang学习笔记
+Golang Practice  -  GoLang Notebook
