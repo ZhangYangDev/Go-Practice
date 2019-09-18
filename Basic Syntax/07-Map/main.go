@@ -14,9 +14,9 @@ func main(){
 
 	// 向Map中插入值
 	cityMap [ "SZ" ] = "深圳"
-    cityMap [ "BJ" ] = "北京"
-    cityMap [ "SH" ] = "上海"
-    cityMap [ "DJ" ] = "东京"
+	cityMap [ "BJ" ] = "北京"
+	cityMap [ "SH" ] = "上海"
+	cityMap [ "DJ" ] = "东京"
 
 	// 打印Map
 	fmt.Println(cityMap)
