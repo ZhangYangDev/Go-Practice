@@ -13,6 +13,11 @@ type User struct {
 	desc string 
 }
 
+
+type StructTest struct{
+
+}
+
 func main(){
-	fmt.Println(User{name:"Sam",gender:"mail",age:27,desc:"I'm a Man"})
+	fmt.Println(User{name:"Sam",gender:"male",age:27,desc:"I'm a Man"})
 }

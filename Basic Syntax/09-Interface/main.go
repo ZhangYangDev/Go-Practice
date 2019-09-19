@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 )
-
+// 接口
 type User interface {
 	say()
 }
-
+// 结构体 
 type UserSay struct {
 
 }
