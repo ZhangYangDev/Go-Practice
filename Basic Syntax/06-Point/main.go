@@ -6,7 +6,6 @@ import (
 
 func main(){
 
-
 	// 声明指针
 	var str string = "lang"   // 声明变量
 	var sub *string			  // 声明指针变量

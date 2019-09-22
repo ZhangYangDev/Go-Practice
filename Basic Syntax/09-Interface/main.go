@@ -9,17 +9,16 @@ type User interface {
 }
 // 结构体 
 type UserSay struct {
-
+	name string
+	desc string 
 }
-
+// 接口实现
 func (userSay UserSay)say(){
 	fmt.Println("say something")
 }
 
 func main(){
-
-	var user User
-
-	user = new (UserSay)
+	var user User = new (UserSay)
+	// user 
 	user.say()
 }
